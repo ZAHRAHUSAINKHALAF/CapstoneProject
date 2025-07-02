@@ -25,7 +25,11 @@ To recommend the most valuable used car options to our customers, we need to con
 ## DATASET
 The analysis utilizes the autos.csv dataset, a comprehensive web-scraped collection from the German eBay Kleinanzeigen marketplace. This dataset contains approximately 370,000 rows and 20 columns, offering rich insights into the used car market in Germany. Each entry represents a single vehicle advertisement and includes detailed features about the vehicle’s condition, pricing, listing behavior, and seller characteristics.
 
-Dataset Links : Used Cars, Used Cars Data - dataset by data-society | data.world
+🔗**Dataset Links** : 
+[Used Cars from Kaggle](https://www.kaggle.com/datasets/thedevastator/uncovering-factors-that-affect-used-car-prices)
+[Data Source](https://data.world/data-society)
+
+
 While the original dataset is widely referenced in data science practice projects (such as on Kaggle or Dataquest), you may find similar versions through open-source platforms. If you'd like, I can help you locate a publicly available version.
 The data dictionary :
 | Column Name            | Description                                                                 |
@@ -80,10 +84,29 @@ Data cleaning steps included standardizing inconsistent value names and filterin
 
 ## MAIN ANALYSIS AND FINDINGS
 ![1](images/1.png)
+Between 1950 and 1990, car prices fluctuated significantly, largely due to the presence of rare or discontinued models that commanded higher values. From 1995 to 2010, there was a noticeable decline in median prices, coinciding with a surge in the number of vehicles entering the market. However, between 2010 and 2016, median prices began to rise again, possibly reflecting shifts in consumer demand, newer models, or improved vehicle features.
+
 ![2](images/2.png)
+At first glance, cars with lower mileage appeared to have surprisingly lower prices, which seemed counterintuitive. However, after analyzing the damage rate, I found that these vehicles had a significantly higher proportion of unrepaired damage, offering a likely explanation for the reduced prices.
+
 ![3](images/3.png)
 ![4](images/4.png)
+The first graph highlights the car brands with the highest median prices, most of which are well-known and reputable manufacturers. In contrast, the brands with the lowest median prices tend to be less common and less recognizable in the market.
+
 ![5](images/5.png)
+There is a clear inverse relationship between damage rate and median price across car brands. As the proportion of unrepaired vehicles within a brand decreases, the median price of that brand tends to rise. This suggests that buyers place significant value on vehicle condition and are willing to pay more for brands with a lower incidence of damage.
+
 ![6](images/6.png)
+This section presents an overview of car brands and their respective models that exhibit the lowest rates of unrepaired damage. These brands demonstrate higher vehicle condition standards, which may contribute to stronger buyer confidence and potentially higher market value.
+
 ![7](images/7.png)
+This graph compares the average car age and listing duration based on whether the vehicle has unrepaired damage, revealing that older, damaged cars tend to stay online for a shorter time.
+
+## LIMITATIONS 
+Accurate vehicle pricing requires localized, region-specific data. Bahrain-specific datasets provide more relevant insights for understanding the local used car market. However, fields like dateCreated and lastSeen in the current dataset complicate time-based analysis, as they reflect user-driven updates rather than consistent tracking. Additionally, the entire data collection window spans only two months, which limits the potential for long-term trend analysis.
+
+
+## REFERENCES 
+[Used Cars from Kaggle](https://www.kaggle.com/datasets/thedevastator/uncovering-factors-that-affect-used-car-prices)
+[Data Source](https://data.world/data-society)
 

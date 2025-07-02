@@ -52,17 +52,27 @@ The data dictionary :
 
 ## DATA HANDLING
 began by inspecting the dataset for inconsistent or misplaced values across all columns. Based on this initial assessment I deleted some rows and also I removed certain columns that offered limited analytical value. These included:
-•	seller and offerType, as they contained only one unique value and lacked variability
-•	abtest, since its purpose remained unclear even after reviewing the data dictionary
+
+🚙 seller and offerType, as they contained only one unique value and lacked variability
+
+🚙 abtest, since its purpose remained unclear even after reviewing the data dictionary
+
 To enhance the dataset’s analytical depth, I introduced two new columns:
-•	Timeframe : the number of days between when the ad was created and when it was last seen online
-•	carAge : the difference between the year the crawling was conducted and the car’s registration year
+
+🚙 Timeframe : the number of days between when the ad was created and when it was last seen online
+
+🚙 carAge : the difference between the year the crawling was conducted and the car’s registration year
+
 I also developed additional measures to support deeper insights:
-•	DamageRate : the proportion of vehicles with unrepaired damage, calculated per brand
-•	MedianPrice : the median listing price for the vehicles
+
+🚙 DamageRate : the proportion of vehicles with unrepaired damage, calculated per brand
+
+🚙 MedianPrice : the median listing price for the vehicles
+
 Data cleaning steps included standardizing inconsistent value names and filtering the dataset to retain only reasonably qualified car listings. Specifically, I limited:
-•	yearOfRegistration to the range 1950–2016
-•	powerPS to 30–500 horsepower
-•	price to between €100 and €100,000
+
+🚙 yearOfRegistration to the range 1950–2016
+🚙 powerPS to 30–500 horsepower
+🚙 price to between €100 and €100,000
 
 ## MAIN ANALYSIS AND FINDINGS

@@ -29,8 +29,6 @@ The analysis utilizes the autos.csv dataset, a comprehensive web-scraped collect
 [Used Cars from Kaggle](https://www.kaggle.com/datasets/thedevastator/uncovering-factors-that-affect-used-car-prices)
 [Data Source](https://data.world/data-society)
 
-
-While the original dataset is widely referenced in data science practice projects (such as on Kaggle or Dataquest), you may find similar versions through open-source platforms. If you'd like, I can help you locate a publicly available version.
 The data dictionary :
 | Column Name            | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|

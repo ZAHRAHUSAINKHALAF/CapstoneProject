@@ -112,6 +112,18 @@ This graph compares the average car age and listing duration based on whether th
 
 This chart illustrates the relationship between car age and damage rate, with a noticeable peak occurring around vehicles that are 20 years old.
 
+## RECOMMENDATIONS
+
+🚙 Avoid buying vehicles with mileage under 5,000 km. 
+
+🚙 higher listing counts typically corresponds to lower vehicle prices.
+
+🚙 Choose Brands with lower damage rate and reasonable prices.
+
+🚙 Avoid cars around 20 years old, as they are more likely to have damage.
+
+
+
 ## LIMITATIONS 
 Accurate vehicle pricing requires localized, region-specific data. Bahrain-specific datasets provide more relevant insights for understanding the local used car market. However, fields like dateCreated and lastSeen in the current dataset complicate time-based analysis, as they reflect user-driven updates rather than consistent tracking. Additionally, the entire data collection window spans only two months, which limits the potential for long-term trend analysis.
 

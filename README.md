@@ -1,3 +1,4 @@
+![ebay](images/ebay.jpg)
 # Under the Hood: Analyzing Germany’s Used Car Trends!
 ## INTRODUCTION
 With the rising demand for affordable and diverse vehicle options, used cars have become an attractive choice for buyers. As a consulting firm specializing in the used car market, we analyzed eBay’s used car listings to identify key trends and provide data-driven insights. This analysis aims to support smarter decisions for both everyday customers and automotive investors.

@@ -7,14 +7,20 @@ To recommend the most valuable used car options to our customers, we need to con
 
 ## OBJECTIVES
 	Compare car prices by year, type, and condition.
+
 	Identify brands with extreme prices and damage rates.
+
 	Explore how mileage affects damage and price.
+
 	Analyze brand availability and their condition.
+
 	Assess listing speed and vehicle age trends.
 
 ## TARGET AUDIENCE
 	Costumers looking to buy used cars.
+
 	Automotive Investors.
+
 ## DATASET
 The analysis utilizes the autos.csv dataset, a comprehensive web-scraped collection from the German eBay Kleinanzeigen marketplace. This dataset contains approximately 370,000 rows and 20 columns, offering rich insights into the used car market in Germany. Each entry represents a single vehicle advertisement and includes detailed features about the vehicle’s condition, pricing, listing behavior, and seller characteristics.
 

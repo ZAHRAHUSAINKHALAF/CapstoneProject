@@ -129,6 +129,8 @@ Accurate vehicle pricing requires localized, region-specific data. Bahrain-speci
 
 
 ## REFERENCES 
+
 [Used Cars from Kaggle](https://www.kaggle.com/datasets/thedevastator/uncovering-factors-that-affect-used-car-prices)
+
 [Data Source](https://data.world/data-society)
 

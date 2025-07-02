@@ -78,3 +78,4 @@ Data cleaning steps included standardizing inconsistent value names and filterin
 🚙 **price to between €100 and €100,000**
 
 ## MAIN ANALYSIS AND FINDINGS
+[1](images/1.png)
